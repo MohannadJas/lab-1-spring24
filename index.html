@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>Mohaned Jastaneiah</h1>
+    <form action="index.php" method="POST">
+        <label for="Fname">First name</label>
+        <input type="text" id="Fname" > <br> <required>
+
+        <label for="Lname">Last name</label>
+        <input type="text" id="Lname" ><br>required>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" ><br> <required>
+
+        <label for="phone">Phone #</label>
+        <input type="tel" id="phone"><br><required>
+
+        <label for="bday">Date of birth</label>
+        <input type="date" id="bday"> <br> <required>
+
+        <label for="rentdays">Rental duration</label> <br>
+        <input type="number" id="rentdays" min="0" max="30"> <br> <required>
+
+<label for="Insurance">Add comprehensive Insurance Coverage </label><br>
+<label for="Insurance"></label>
+<input type="radio" name="Insurance" id="">
+<br>
+        <label for="Srent">Rental start date</label>
+        <input type="date" id="Srent"> <br> <required>
+
+        
+        <label for="Erent">Rental end date</label>
+        <input type="date" id="Erent"> <br> <required>
+
+            <label for="comment">Additional comments:</label> <br>
+            <textarea id="comment" rows="3" cols="25"></textarea><br>
+
+            <label for="file">Upload driving License:</label><br>
+<input type="file" id="file" accept="image/png , image/jpeg"> <br>
+
+
+        <input type="reset"><br>
+        <input type="submit">
+    </form>
 </body>
+
 </html>
